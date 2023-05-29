@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.transactionHistory {
+  width: 90%;
+  border-collapse: collapse;
+  box-shadow: 5px 0px 6px rgba(0, 0, 0, 0.1), -5px 0px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.transactionHistory th {
+  background-color: aqua;
+  padding: 10px;
+  border-right: 1px solid rgb(255, 255, 255);
+}
+/* Eliminar línea vertical en el último encabezado de columna */
+.transactionHistory th:last-child {
+  border-right: none;
+}
+
+.transactionHistory td {
+  text-align: center;
+  padding: 10px;
+  border-right: 1px solid rgb(175, 163, 163);
+}
+.transactionHistory td:last-child {
+  padding: 10px;
+  border-right: none;
+}
+
+/* para las filas pares */
+.transactionHistory tbody tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+/* para la ultima */
+.transactionHistory tbody tr:last-child {
+  border-bottom: 1px solid black;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  border-bottom: none;
+}

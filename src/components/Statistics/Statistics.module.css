@@ -1,0 +1,39 @@
+.maxWidth {
+  width: 80vw;
+  max-width: 500px;
+}
+.divTitle {
+  background-color: #ffffff;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 0;
+  width: 100%;
+}
+.title {
+  padding: 30px;
+}
+.statistics {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.statList {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 50px;
+  text-align: center;
+  background-color: #f4f9fe;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 10px;
+  width: 25%;
+}
+.label, .percentage{
+color: #f4f9fe;
+}
